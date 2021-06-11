@@ -1,0 +1,22 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "real time chat app using node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aptgetinfo/chat-app.git"
+  },
+  "author": "Deepak Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aptgetinfo/chat-app/issues"
+  },
+  "homepage": "https://github.com/aptgetinfo/chat-app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
