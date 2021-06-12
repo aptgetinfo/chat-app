@@ -48,11 +48,11 @@
         </div>
     </script>
     <script id="sidebar-tempelate" type="text/html">
-    <h2 class="room-title">{{room}}</h2>
-    <h3 class="list-title">Users</h3>
-    <ul class="users">
+    <h2 class="room-title">Room : <span style="color: chartreuse;">{{room}}</span></h2>
+    <h3 class="list-title">Users -</h3>
+    <ul class="users" style="color: chartreuse;">
         {{#users}}
-        <li>{{username}}</li>
+        <li style="list-style-type: disc;">{{username}}</li>
         {{/users}}
     </ul>
 </script>
